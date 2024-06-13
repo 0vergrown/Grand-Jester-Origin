@@ -1,0 +1,40 @@
+{
+    "hidden": true,
+    "type":"origins:action_on_callback",
+    "entity_action_respawned":{
+       "type":"origins:and",
+       "actions":[
+          {
+             "type":"origins:execute_command",
+             "command":"scale reset @s"
+          },
+          {
+             "type":"origins:execute_command",
+             "command":"scale persist set true @s"
+          },
+          {
+             "type":"origins:change_resource",
+             "resource":"grand_jester:jesters_guise_resource",
+             "change":2,
+             "operation":"set"
+          },
+          {
+             "type":"origins:change_resource",
+             "resource":"grand_jester:jesters_guise_trigger",
+             "change":0,
+             "operation":"set"
+          },
+         {
+            "type":"origins:change_resource",
+            "resource":"grand_jester:spectral_summon_resource",
+            "change":0,
+            "operation":"set"
+         },
+         {
+            "type":"origins:execute_command",
+            "command":"team remove grand_jester_spectral_summon.passive"
+         }
+       ]
+    },
+    "execute_chosen_when_orb":false
+}
