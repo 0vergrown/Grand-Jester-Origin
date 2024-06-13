@@ -1,0 +1,39 @@
+{
+    "type":"origins:fire_projectile",
+    "entity_type":"minecraft:arrow",
+    "cooldown":20,
+    "hud_render":{
+       "should_render":true,
+       "sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+       "bar_index":2
+    },
+    "count":1,
+    "interval":0,
+    "start_delay":0,
+    "speed":4.0,
+    "divergence":0.0,
+    "sound":"minecraft:entity.arrow.shoot",
+    "tag":"{pickup:1b}",
+    "key":{
+       "key":"key.attack",
+       "continuous":false
+    },
+    "shooter_action":{
+       "type":"origins:equipped_item_action",
+       "equipment_slot":"mainhand",
+       "action":{
+          "type":"origins:consume",
+          "amount":1
+       }
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:arrow"
+            }
+        }
+    }
+}

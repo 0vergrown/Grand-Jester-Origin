@@ -5,29 +5,29 @@
        "recipe":{
           "type":"minecraft:crafting_shaped",
           "id":"grand_jester:patchwork_cloak",
-          "pattern": [
-            "#LY",
-            "YL#",
-            "LgL"
-        ],
-        "key": {
-            "#": {
-                "item": "minecraft:red_wool"
-            },
-            "L": {
-                "item": "minecraft:leather"
-            },
-            "Y": {
-                "item": "minecraft:yellow_wool"
-            },
-            "g": {
-                "item": "minecraft:gold_ingot"
-            }
-        },
-        "result": {
-            "item": "minecraft:leather_chestplate",
-            "count": 1
-        }
+          "pattern":[
+             "#LY",
+             "YL#",
+             "LgL"
+          ],
+          "key":{
+             "#":{
+                "item":"minecraft:red_wool"
+             },
+             "L":{
+                "item":"minecraft:leather"
+             },
+             "Y":{
+                "item":"minecraft:yellow_wool"
+             },
+             "g":{
+                "item":"minecraft:gold_ingot"
+             }
+          },
+          "result":{
+             "item":"minecraft:leather_chestplate",
+             "count":1
+          }
        }
     },
     "modify_crafting":{
