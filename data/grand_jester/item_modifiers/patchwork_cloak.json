@@ -1,0 +1,46 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "translate": "item_modifiers.grand_jester.patchwork_cloak.name",
+        "color": "aqua",
+        "bold": false,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      }
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "translate": "item_modifiers.grand_jester.patchwork_cloak.lore",
+          "color": "gold",
+          "bold": false,
+          "italic": false,
+          "underlined": false,
+          "strikethrough": false,
+          "obfuscated": false
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:limit_count",
+      "limit": 1
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:145766,Tags:patchwork_cloak,Trim:{material:\"minecraft:gold\",pattern:\"minecraft:tide\"},display:{color:11546150}}"
+    },
+    {
+        "function":"apoli:add_power",
+        "power":"grand_jester:jesters_guise_size_change",
+        "slot":"chest",
+        "hidden":false,
+        "negative":false
+     }
+  ]

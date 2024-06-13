@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "supported_formats": {
+      "min_inclusive": 18,
+      "max_inclusive": 34
+    },
+    "description": {
+      "text": "Created by Overgrown",
+      "bold": false,
+      "italic": false,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    }
+  }
+}
