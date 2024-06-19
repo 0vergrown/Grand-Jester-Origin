@@ -39,6 +39,7 @@ This datapack requires the following to function properly:
 - [Fabric API](https://fabricmc.net/use/) - Necessary for running mods in the Fabric mod loader environment.
 - [Origins Mod](https://github.com/apace100/origins-fabric) - A Minecraft mod that allows you to choose an Origin at the beginning, granting various abilities and drawbacks.
 - [Pehkui](https://github.com/Virtuoel/Pehkui) - A Minecraft mod that allows for changing the size of any entity.
+- [Grand Jester (Resources)](https://github.com/0vergrown/Grand-Jester-Origin-Resource-Pack) - A resource pack that contains all of the translation files and custom item models
 
 ## Installation
 To install the Grand Jester Origin datapack, follow these steps:
