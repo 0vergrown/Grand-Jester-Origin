@@ -1,0 +1,35 @@
+{
+    "type":"origins:multiple",
+    "recipe":{
+       "type":"origins:recipe",
+       "recipe":{
+          "type":"minecraft:crafting_shaped",
+          "id":"grand_jester:jester_hat",
+          "pattern":[
+             "#Y#",
+             "Y Y",
+             " # "
+          ],
+          "key":{
+             "#":{
+                "item":"minecraft:red_wool"
+             },
+             "Y":{
+                "item":"minecraft:yellow_wool"
+             }
+          },
+          "result":{
+             "item":"minecraft:carved_pumpkin",
+             "count":1
+          }
+       }
+    },
+    "modify_crafting":{
+       "type":"origins:modify_crafting",
+       "recipe":"grand_jester:jester_hat",
+       "item_action":{
+          "type":"origins:modify",
+          "modifier":"grand_jester:jester_hat"
+       }
+    }
+}

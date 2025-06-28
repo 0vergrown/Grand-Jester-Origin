@@ -1,0 +1,53 @@
+[
+    {
+       "function":"minecraft:set_name",
+       "entity":"this",
+       "name":{
+          "translate":"item_modifiers.grand_jester.marotte.name",
+          "color":"aqua",
+          "bold":false,
+          "italic":false,
+          "underlined":false,
+          "strikethrough":false,
+          "obfuscated":false
+       }
+    },
+    {
+       "function":"minecraft:set_lore",
+       "entity":"this",
+       "lore":[
+          {
+             "translate":"item_modifiers.grand_jester.marotte.lore",
+             "color":"gold",
+             "bold":false,
+             "italic":false,
+             "underlined":false,
+             "strikethrough":false,
+             "obfuscated":false
+          }
+       ],
+       "replace":true
+    },
+    {
+       "function":"minecraft:limit_count",
+       "limit":1
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{CustomModelData:205056,Tags:marotte}"
+    },
+    {
+        "function":"apoli:add_power",
+        "power":"grand_jester:extended_antics",
+        "slot":"mainhand",
+        "hidden":false,
+        "negative":false
+     },
+     {
+       "function":"apoli:add_power",
+       "power":"grand_jester:extended_antics",
+       "slot":"offhand",
+       "hidden":false,
+       "negative":false
+    }
+]
