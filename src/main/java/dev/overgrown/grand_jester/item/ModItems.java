@@ -1,6 +1,8 @@
 package dev.overgrown.grand_jester.item;
 
 import dev.overgrown.grand_jester.GrandJester;
+import dev.overgrown.grand_jester.item.jester_hat.JesterHat;
+import dev.overgrown.grand_jester.item.marotte.Marotte;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -14,20 +16,18 @@ public class ModItems {
         Registry.register(Registries.ITEM, GrandJester.identifier("patchwork_cloak"), PATCHWORK_CLOAK);
     }
 
-    // Jester Hat (leather helmet stats)
-    public static final ArmorItem JESTER_HAT = new ArmorItem(
-            ArmorMaterials.LEATHER,
-            ArmorItem.Type.HELMET,
+    // Jester Hat
+    public static final Item JESTER_HAT = new JesterHat(
             new Item.Settings()
                     .maxCount(1)
                     .rarity(Rarity.UNCOMMON)
     );
 
-    // Marotte (sword item)
-    public static final SwordItem MAROTTE = new SwordItem(
-            ToolMaterials.WOOD, // Same stats as wooden sword
-            3,                  // Attack damage bonus
-            -2.4F,              // Attack speed modifier
+    // Marotte
+    public static final Marotte MAROTTE = new Marotte(
+            ToolMaterials.WOOD,
+            3,
+            -2.4F,
             new Item.Settings()
                     .maxCount(1)
                     .rarity(Rarity.RARE)
@@ -35,7 +35,7 @@ public class ModItems {
 
     // Patchwork Cloak (chestplate armor)
     public static final ArmorItem PATCHWORK_CLOAK = new ArmorItem(
-            ArmorMaterials.LEATHER,
+            ModArmorMaterials.PATCHWORK_CLOAK,
             ArmorItem.Type.CHESTPLATE,
             new Item.Settings()
                     .maxCount(1)
