@@ -74,7 +74,7 @@
                    "type":"origins:and",
                    "actions":[
                       {
-                         "type":"origins:random_teleport",
+                         "type":"sync:random_teleport",
                          "area_width":2,
                          "area_height":2,
                          "landing_offset":{
@@ -140,7 +140,7 @@
                    "type":"origins:and",
                    "actions":[
                       {
-                         "type":"origins:random_teleport",
+                         "type":"sync:random_teleport",
                          "area_width":3,
                          "area_height":3,
                          "landing_offset":{
@@ -200,7 +200,7 @@
                    "type":"origins:and",
                    "actions":[
                       {
-                         "type":"origins:random_teleport",
+                         "type":"sync:random_teleport",
                          "area_width":2,
                          "area_height":2,
                          "landing_offset":{
@@ -260,7 +260,7 @@
                    "type":"origins:and",
                    "actions":[
                       {
-                         "type":"origins:random_teleport",
+                         "type":"sync:random_teleport",
                          "area_width":3,
                          "area_height":3,
                          "landing_offset":{
@@ -320,7 +320,7 @@
                    "type":"origins:and",
                    "actions":[
                       {
-                         "type":"origins:random_teleport",
+                         "type":"sync:random_teleport",
                          "area_width":2,
                          "area_height":2,
                          "landing_offset":{
@@ -380,7 +380,7 @@
                    "type":"origins:and",
                    "actions":[
                       {
-                         "type":"origins:random_teleport",
+                         "type":"sync:random_teleport",
                          "area_width":3,
                          "area_height":3,
                          "landing_offset":{
@@ -440,7 +440,7 @@
                    "type":"origins:and",
                    "actions":[
                       {
-                         "type":"origins:random_teleport",
+                         "type":"sync:random_teleport",
                          "area_width":2,
                          "area_height":2,
                          "landing_offset":{
@@ -500,7 +500,7 @@
                    "type":"origins:and",
                    "actions":[
                       {
-                         "type":"origins:random_teleport",
+                         "type":"sync:random_teleport",
                          "area_width":3,
                          "area_height":3,
                          "landing_offset":{
