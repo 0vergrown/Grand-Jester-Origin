@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "grand_jester:models/armor/patchwork_cloak"
+    "layer0": "grand_jester:item/patchwork_cloak"
   }
 }
