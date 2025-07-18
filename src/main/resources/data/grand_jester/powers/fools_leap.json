@@ -5,6 +5,16 @@
       "modifier":{
          "operation":"addition",
          "value":0.2
+      },
+      "condition": {
+         "type": "origins:equipped_item",
+         "equipment_slot": "head",
+         "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+               "item": "grand_jester:jester_hat"
+            }
+         }
       }
    },
    "reduced_fall_damage":{
@@ -33,6 +43,16 @@
       "modifier":{
          "operation":"multiply_base_multiplicative",
          "value":-0.2
+      },
+      "condition": {
+         "type": "origins:equipped_item",
+         "equipment_slot": "head",
+         "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+               "item": "grand_jester:jester_hat"
+            }
+         }
       }
    }
 }

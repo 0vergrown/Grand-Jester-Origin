@@ -8,8 +8,8 @@
 		"overgrown"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/datapack/grand-jester-origin",
+		"sources": "https://github.com/0vergrown/Grand-Jester-Origin"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/grand_jester/icon.png",
@@ -22,9 +22,6 @@
 			"dev.overgrown.grand_jester.GrandJesterDataGenerator"
 		]
 	},
-	"mixins": [
-		"grand_jester.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.20.1",

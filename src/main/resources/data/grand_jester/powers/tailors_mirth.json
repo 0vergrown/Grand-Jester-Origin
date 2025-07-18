@@ -1,8 +1,0 @@
-{
-   "type":"origins:modify_crafting",
-   "recipe":"grand_jester:patchwork_cloak",
-   "item_action":{
-      "type":"origins:modify",
-      "modifier":"grand_jester:patchwork_cloak"
-   }
-}

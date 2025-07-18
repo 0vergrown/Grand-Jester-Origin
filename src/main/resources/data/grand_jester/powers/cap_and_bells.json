@@ -1,8 +1,0 @@
-{
-   "type":"origins:modify_crafting",
-   "recipe":"grand_jester:jester_hat",
-   "item_action":{
-      "type":"origins:modify",
-      "modifier":"grand_jester:jester_hat"
-   }
-}
