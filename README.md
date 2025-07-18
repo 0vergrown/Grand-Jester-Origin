@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/0vergrown/Grand-Jester-Origin/main/pack.png" alt="Grand Jester Origin cover"/>
+  <img src="https://raw.githubusercontent.com/0vergrown/Grand-Jester-Origin/refs/heads/main/src/main/resources/assets/grand_jester/icon.png" alt="Grand Jester Origin cover"/>
 </p>
 
 # 🎭 Grand Jester Origin 🎭
